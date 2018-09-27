@@ -4,11 +4,12 @@
     color:white;
     font-size:20px;
     display: flex;
-    flex-direction:center;
+    justify-content:center;
     
 }
 .headshot{
     width:20%;
+    border-radius:50%;
    
 }
 .mid{
@@ -16,12 +17,27 @@
     color:black;
     align-items:center;
     font-size:50px;
-    margin-top:5px;
     margin-bottom:5px;
 }
 .aboutme{
     border:1px solid black;   
 }
-.grad {
-    background-color:linear-gradient(turquoise, blue);
+/*.grad {*/
+/*    background-color:linear-gradient(turquoise, blue);*/
+/*}*/
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #e8eaed; /* Green */
+    color: white;
 }
